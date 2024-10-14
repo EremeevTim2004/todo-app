@@ -1,0 +1,31 @@
+# Директория для зависимостей Go modules
+/go.mod
+/go.sum
+
+# Бинарные файлы, скомпилированные Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Директория для вывода компиляции
+/build/
+bin/
+out/
+
+# Кэш go build
+**/vendor/
+**/node_modules/
+**/._*
+
+# Локальные файлы IDE
+.idea/
+.vscode/
+.trunk/
+*.iml
+
+# Системные файлы
+.DS_Store
+Thumbs.db
